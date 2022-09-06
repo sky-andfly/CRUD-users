@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px;
+}
+body {
+    background-color: #e2ecf8;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+form.user {
+    width: 100%;
+    box-shadow: 3px 1px 0 rgba(46, 150, 208, 0.58);
+    background-color: #fff;
+}
+
+form.user input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #ededed;
+}
+
+form.user button {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 15px;
+    outline: none;
+    text-align: center;
+    background-color: #2e96d0;
+    color: #fff;
+    border: 3px solid #2e96d0;
+    transition: 0.3s;
+}
+
+form.user button:hover {
+    background-color: #fff;
+    color: #2e96d0;
+}
+
+form.user label {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+form.user h2 {
+    background-color: #14587e;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.item {
+    border: 1px solid #14587e;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+form.user .image-text {
+    color: #2e96d0;
+    font-size: 12px;
+}
+
+span.error {
+    color: red;
+    font-size: 12px;
+}
+
+.item .img-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.top__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14587e;
+    padding: 10px;
+    color: #fff;
+}
+.top__item .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.top__content {
+    padding: 20px;
+}
+.service{
+    padding-left: 20px;
+    display: flex;
+    gap: 5px;
+}
+.service a{
+    color: #14587e;
+    text-decoration: none;
+}
+.service a:hover{
+    text-decoration: underline;
+}
+.select-avatar{
+    width: 200px;
+}
+.delete_btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #14587e;
+}
+.delete_btn:hover{
+    text-decoration: underline;
+}
